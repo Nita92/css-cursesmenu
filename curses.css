@@ -162,3 +162,19 @@ div.menudialog div.menuouter div.menubuttons a:after { content: "\0000a0\003e"; 
 
 div.menudialog div.menuouter div.menubuttons div.menutopborder { background-color: #000; }
 
+@media (max-width:550px) {
+    
+    body {
+        margin: 20px;
+        padding: 20px; 
+    }
+    
+    div.menudialog {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .menubuttons {
+        display: flex;
+    }
+}
